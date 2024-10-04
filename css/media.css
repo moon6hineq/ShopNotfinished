@@ -1,0 +1,99 @@
+/* Small screens */
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+/* Medium screens */
+
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+    .user-actions {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* Large screens */
+
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+/* Product block */
+
+@media only screen and (min-width: 600px) {
+    .p2-product-block {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .p2-product-block-details {
+        padding-left: 10px;
+    }
+}
+
+
+/* гпт приколы */
+
+
+/* 
+body {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.header {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .box {
+        padding: 20px;
+    }
+    .header {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        font-size: 20px;
+    }
+    .container {
+        width: 80%;
+    }
+    .box {
+        padding: 30px;
+    }
+} 
+*/

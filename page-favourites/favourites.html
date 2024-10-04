@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/favourites-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="image/logo.png" type="image/png">
+    <title>Shop</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="C:\Users\moonshineq\Desktop\11\shop.html"><img src="image/logo.png" alt="Лого"></a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Поиск...">
+            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <div class="user-actions">
+            <a href="C:\Users\moonshineq\Desktop\11\Window\window.html"><i class="fa fa-user" aria-hidden="true"></i> 
+            <br>
+            Личный кабинет</a>
+            <a href="C:\Users\moonshineq\Desktop\11\page-favourites\favourites.html"><i class="fa fa-heart" aria-hidden="true"></i>
+            <br>
+            Избранное</a>
+            <a href="C:\Users\moonshineq\Desktop\11\page-basket\basket.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <br>
+            Корзина</a>
+            
+        </div>
+    </header>
+    <!-- Catalog -->
+    <div class="catalog">
+        <div class="catalog-header">
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-th-list" aria-hidden="true"></i>Каталог</button>
+                <div class="dropdown-content">
+                    <a href="C:\Users\moonshineq\Desktop\11\page-product\product.html">Бальзамы</a>
+                    <a href="C:\Users\moonshineq\Desktop\11\page-product\product.html">Кремы</a>
+                    <a href="C:\Users\moonshineq\Desktop\11\page-product\product.html">Маски косметические</a>
+                    <a href="C:\Users\moonshineq\Desktop\11\page-product\product.html">Масла</a>
+                    <a href="C:\Users\moonshineq\Desktop\11\page-product\product.html">Скрабы</a>
+                    <a href="C:\Users\moonshineq\Desktop\11\page-product\product.html">Щетки косметические</a>
+                    <a href="C:\Users\moonshineq\Desktop\11\page-product\product.html">Эфирные масла</a>
+                </div>
+            </div>
+            <div class="catalog-button-hover">
+                <a href="C:\Users\moonshineq\Desktop\11\page-product\product.html"></i>Уход</a>
+                <a href="C:\Users\moonshineq\Desktop\11\page-product\product.html"></i>Ламинария</a>
+                <a href="C:\Users\moonshineq\Desktop\11\shop.html#acts"><i class="fa fa-fire" aria-hidden="true"></i>Акции</a>
+                <a href="C:\Users\moonshineq\Desktop\11\shop.html#newpr"></i>Новинки</a>
+            </div>
+        </div>
+    </div>
+    <!-- Body -->
+
+    <div class="body-container">
+        <div class="body-p1">
+            <div class="filter-frame">
+                <p><span class="filter-text">Фильтр в разделе</span></p>
+                <p class="downline"></p>
+                <p class="filter-price">Цена (р)</p>
+                <input type="range" min="0" max="10000" step="1" value="1" class="filter-scroll-bar">
+                <div class="filter-price-range-block">
+                    <p class="filter-price">От: </p>
+                    <input type="text" size="6" class="filter-text-frame" value="1">
+                    <p class="filter-price"> До: </p>
+                    <input type="text" size="6" class="filter-text-frame" value="10001">
+                </div>
+                <a class="filter-button">Ок</a>
+                <p class="downline"></p>
+            </div>
+            <div class="p2-main">
+                <div id="selected-product"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="f-container">
+            <div class="f-column">
+                <div class="logo">
+                    <a href="#"><img src="image/logo-white.png" alt="Лого"></a>
+                </div>
+                <div class="f-bank">
+                    <img src="image/mastercard.png" alt="Card Image">
+                    <img src="image/MIR.png" alt="Card Image">
+                    <img src="image/visa.png" alt="Card Image">
+                    <img src="image/yandex-money.png" alt="Card Image">
+                </div>
+                <br>
+                <div class="logo">
+                    <a href="#" class="f-button-pr"><i class="fa fa-map-marker" aria-hidden="true"></i> Пункты <br> самовывоза</a>
+                </div>
+            </div>
+            <div class="f-column-2">
+                <div class="f-column-text">
+                    <p>FAQ</p>
+                    <a href="#" class="f-button">Как сделать заказ</a>
+                    <br>
+                    <a href="#" class="f-button">Варианты оплаты</a>
+                    <br>
+                    <a href="#" class="f-button">Варианты доставки</a>
+                    <br>
+                    <a href="#" class="f-button">Гарантия</a>
+                </div>
+                <div class="f-column-text">
+                    <p>Выгода тут!</p>
+                    <a href="#acts" class="f-button">Акции</a>
+                    <br>
+                    <a href="#newpr" class="f-button">Новинки</a>
+                </div>
+                <div class="f-column-text">
+                    <p>О магазине</p>
+                    <a href="#" class="f-button">Контакты и реквизиты</a>
+                    <br>
+                    <a href="#" class="f-button">Публичная оферта</a>
+                    <br>
+                    <a href="#" class="f-button">Для поставщиков</a>
+                    <br>
+                </div>
+            </div>
+            <div class="f-column-3">
+                <div class="f-column-3-1">
+                    <a href="https://vk.com" target="_blank " class="f-button-pr-b-1"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    <a href="https://www.whatsapp.com" target="_blank " class="f-button-pr-b-2"><i class=" fa fa-whatsapp " aria-hidden="true "></i></a>
+                    <a href="https://www.google.ru" target="_blank " class="f-button-pr-b-3"><i class="fa fa-google" aria-hidden="true"></i></a>
+                </div>
+                <div class="f-column-3-2">
+                    <a href="#" class="f-button-pr-с">ㅤ+7 (999) 999 99 99ㅤ</a>
+                    <br>
+                    <p>Будни с 9:00 до 18:00</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/favourites-script.js"></script>
+</body>
+
+</html>
